@@ -1,0 +1,36 @@
+# ============================================
+# CROPAI - Crop Recommendation System
+# Requirements File
+# ============================================
+
+# Core Dependencies
+# ============================================
+streamlit>=1.28.0
+pandas>=2.0.0
+numpy>=1.24.0
+scikit-learn>=1.3.0
+joblib>=1.3.0
+
+# Data Visualization (Optional)
+# ============================================
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.14.0
+
+# Additional ML Libraries (Optional)
+# ============================================
+scipy>=1.10.0
+imbalanced-learn>=0.11.0
+
+# Utilities
+# ============================================
+pillow>=10.0.0
+requests>=2.31.0
+
+# Development Tools (Optional)
+# ============================================
+# pytest>=7.4.0
+# black>=23.7.0
+# flake8>=6.1.0
+# jupyter>=1.0.0
+# notebook>=7.0.0
