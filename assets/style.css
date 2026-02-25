@@ -644,15 +644,18 @@ header {visibility: hidden;}
     margin: 45px 0;
 }
 
-/* ===== FOOTER ===== */
+/* ===== FOOTER (CENTER FIXED) ===== */
 .footer {
     background: linear-gradient(135deg, var(--white) 0%, var(--soft-green) 100%);
     border-radius: 35px;
     border: 2px solid var(--mint-green);
     padding: 50px 40px;
-    margin-top: 50px;
+    margin: 60px auto 0 auto;   /* center horizontally */
     text-align: center;
     box-shadow: var(--shadow-md);
+
+    max-width: 1100px;          /* lock width */
+    width: 100%;
 }
 
 .footer-logo {
@@ -673,16 +676,18 @@ header {visibility: hidden;}
     color: var(--secondary-green);
     font-size: 16px;
     line-height: 1.8;
-    max-width: 600px;
+    max-width: 650px;
     margin: 0 auto;
 }
 
 .footer-links {
     display: flex;
     justify-content: center;
+    align-items: center;   /* added */
     gap: 35px;
     margin-top: 30px;
     flex-wrap: wrap;
+    text-align: center;
 }
 
 .footer-link {
@@ -704,6 +709,10 @@ header {visibility: hidden;}
     color: var(--gray);
     font-size: 14px;
     margin-top: 30px;
+}
+.main .block-container {
+    max-width: 1200px !important;
+    margin: 0 auto !important;
 }
 
 /* ===== ERROR BOX ===== */
